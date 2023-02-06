@@ -13,7 +13,7 @@ dotenv.config(); //dotenv is intialize by it
 export const signupUser = async (req, res) => {
   try {
     // const user = req.body; //here req is the object
-    //append some random words away away before the password
+    // append some random words away before the password
     // const salt = await bcryptjs.genSalt(10);
     // const hashPassword = await bcryptjs.hash(pas, 10);
     const newUser = await User.create({

@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import Router from "./routes/routes.js";
 import cors from "cors";
-import user from "./model/user.js";
+// import user from "./model/user.js";
 import bodyParser from "body-parser"; //jis request me body ati ha us me yah use hota ha lazmi
 //-> we can import it directly in latest version but we also put the type in package.json file   // when we import express
 // const express=require("express");
